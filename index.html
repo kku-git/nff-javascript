@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nff</title>
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- 검색창 만들기 -->
+      <div class="search-container">
+        <div class="search-overlay"></div>
+        <!-- 검색창 -->
+        <div class="search">
+          <input
+            type="text"
+            class="search-box"
+            placeholder="Press Enter to Search"
+          />
+        </div>
+      </div>
+
+      <!-- 헤더 (뉴스티커) 시작 -->
+      <header>
+        <ul class="ticker">
+          <li>
+            <a href="http://nff.kr/member/join.html"
+              >3,000KRW off for new members
+            </a>
+          </li>
+          <li><a href="/member/join.html">Free shipping over 80,000KRW </a></li>
+        </ul>
+      </header>
+      <!-- 컨테이너 시작 -->
+      <div class="container">
+        <!-- 왼쪽 aside -->
+        <aside class="sidebar">
+          <ul class="category">
+            <li class="search_button"><a href="#">SEARCH</a></li>
+            <li class="dropdown">
+              <a href="#">SHOP</a>
+              <ul class="dropdown-content">
+                <li><a href="#">for hair</a></li>
+                <li><a href="#">for neck</a></li>
+                <li><a href="#">for fingers</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">BOARD</a>
+              <ul class="dropdown-content">
+                <li><a href="#">notice</a></li>
+                <li><a href="#">q / a</a></li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+        <!-- 중앙 메인 콘텐트 -->
+        <main>
+          <div class="image-container">
+            <img src="img/logo.svg" alt="로고" class="logo-image" />
+          </div>
+          <div class="image-container">
+            <img src="img/nff_bg.svg" alt="배경" class="bg-image" />
+          </div>
+          <footer>
+            <p>JY CEO.kwon jae yeon</p>
+            <p>Business License.</p>
+            <p>[777-23-01151] On-Line Register.</p>
+            <p>2022-서울 용산-1407[사업자정보확인]</p>
+            <p>04316 46-10,</p>
+            <p>Wonhyo-ro 1-ga, Yongsan-gu, Seoul 6 Floor</p>
+            <p>kakaotalk ID : nff</p>
+            <p>11AM-17PM</p>
+            <p>jy.nff.official@gmail.com</p>
+            <p>개인정보관리책임자 kwon jae yeon</p>
+            <p>기업은행 025-136582-04-018 kwon jaeyeon</p>
+          </footer>
+        </main>
+        <!-- 우측 aside -->
+        <aside class="sidebar">
+          <ul class="category">
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">CART</a></li>
+            <li><a href="#">ORDER</a></li>
+            <li><a href="#">MY PAGE</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
